@@ -1,11 +1,12 @@
 {
-  "name": "react-native-deprecated-custom-components",
-  "version": "0.1.1",
+  "name": "@clicktherapeutics/react-native-deprecated-custom-components",
+  "version": "0.0.1",
   "description": "Deprecated custom components that originally shipped with React Native",
   "repository": {
     "type": "git",
-    "url": "git@github.com:facebookarchive/react-native-custom-components.git"
+    "url": "https://github.com/clicktherapeutics/react-native-custom-components.git"
   },
+  "homepage": "https://github.com/clicktherapeutics/react-native-custom-components/tree/master#readme",
   "main": "src/CustomComponents.js",
   "dependencies": {
     "fbjs": "~0.8.9",
@@ -17,5 +18,8 @@
   },
   "peerDependencies": {
     "react-native": "*"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
